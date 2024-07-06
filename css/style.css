@@ -1,0 +1,70 @@
+:root{
+    --selected-text-color: #2196F3;
+    --text-color:#212121;
+    --button-color:#F5F4FA;
+    --footer-color:#2F303A;
+    --smalltext-color:#757575;
+    --bachground-color:#FFFFFF;
+    --border-color:#EEEEEE;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto";
+}
+h5{
+    font-family: "Raleway";
+}
+.web {
+    color: var(--selected-text-color);
+}
+
+header>h5{
+    color: var(--text-color);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.email {
+    color: var(--selected-text-color);
+}
+.phone{
+    color: var(--smalltext-color);
+}
+
+.solutions{
+    background-color: var(--footer-color);
+}
+h1{
+    color: var(--bachground-color);
+    text-align: center;
+}
+button{
+    color: #EEEEEE;
+    background-color: #2196F3;
+}
+p{
+    color: var(--smalltext-color);
+}
+.team{
+    background-color: var(--button-color);
+}
+footer{
+    background-color: var(--footer-color);
+}
+footer>p{
+    color: var(--bachground-color);
+}
+footer>h5{
+    color: var(--bachground-color);
+}
+h3{
+    color: var(--text-color);
+}
+li{
+    list-style-type: none;
+}
