@@ -188,6 +188,8 @@ h3 {
   width: 270px;
   background-color: var(--bachground-color);
   height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+
 }
 
 .team-list img {
@@ -223,61 +225,43 @@ h3 {
 }
 footer p {
   margin-top: 9px;
-
 }
 .footer-adress {
   margin-top: 20px;
 }
 
-.solutions-button{
+.solutions-button {
   margin-top: 20px;
   border-radius: 4px;
   width: 216px;
   height: 50px;
   font-weight: 700;
-font-size: 16px;
-line-height: 187%;
-letter-spacing: 0.06em;
-text-align: center;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 
-.group-1::before{
-content: "";
- background-image: url("../img/Group1.png");
- width: 270px;
- height: 120px;
- display: flex;
- background-position: center;
- background-repeat: no-repeat;
-
+.group-1::before {
+  background-image: url("../img/antenna.svg");
 }
-.group-2::before{
+.group-2::before {
+  background-image: url("../img/clock.svg");
+}
+.group-3::before {
+  background-image: url("../img/diagram.svg");
+}
+.group-4::before {
+  background-image: url("../img/astronaut.svg");
+}
+
+.list-item::before {
   content: "";
-   background-image: url("../img/Group\ 2.png");
-   width: 270px;
-   height: 120px;
-   display: flex;
-   background-position: center;
-   background-repeat: no-repeat;
-  
-  }
-  .group-3::before{
-    content: "";
-     background-image: url("../img/Group\ 3.png");
-     width: 270px;
-     height: 120px;
-     display: flex;
-     background-position: center;
-     background-repeat: no-repeat;
-    
-    }
-    .group-4::before{
-      content: "";
-       background-image: url("../img/Group\ 4.svg");
-       width: 270px;
-       height: 120px;
-       display: flex;
-       background-position: center;
-       background-repeat: no-repeat;
-      
-      }
+  width: 270px;
+  height: 120px;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--button-color);
+  border-radius: 4px;
+}
